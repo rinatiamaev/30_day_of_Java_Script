@@ -32,9 +32,8 @@
  * @param {number} n
  * @return {Function} counter
  */
-const createCounter = (n) =>{
-    let cur = n;
-    return () => cur++;
+const createCounter = (n) => {
+    return () => n++;
 }
 
 /** 
